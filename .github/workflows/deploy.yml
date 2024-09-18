@@ -20,7 +20,7 @@ jobs:
           java-version: '21'
           cache: 'gradle'
 
-      - run: ./gradlew build --no-daemon
+      - run: ./gradlew wasmJsBrowserProductionWebpack --no-daemon
 
       - name: Uploading files to gh-pages branch
         uses: JamesIves/github-pages-deploy-action@v4
