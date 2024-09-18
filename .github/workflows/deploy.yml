@@ -25,4 +25,4 @@ jobs:
       - name: Uploading files to gh-pages branch
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: build/kotlin-webpack/productionExecutable
+          folder: build/kotlin-webpack/wasmJs/productionExecutable
