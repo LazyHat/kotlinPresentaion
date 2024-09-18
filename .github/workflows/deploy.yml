@@ -30,7 +30,7 @@ jobs:
 
       - run: ./gradlew build --no-daemon
       - name: Uploading files to gh-pages branch
-      - uses: JamesIves/github-pages-deploy-action@4.1.4
+      - uses: JamesIves/github-pages-deploy-action@v4.1.4
           with:
             branch: gh-pages
             folder: build/kotlin-webpack/productionExecutable
