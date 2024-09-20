@@ -1,4 +1,5 @@
-rootProject.name = "clide"
+rootProject.name = "presentations"
+
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 pluginManagement {
@@ -13,6 +14,10 @@ pluginManagement {
         mavenCentral()
         gradlePluginPortal()
     }
+}
+
+plugins {
+    id("de.fayard.refreshVersions") version "0.60.5"
 }
 
 dependencyResolutionManagement {
