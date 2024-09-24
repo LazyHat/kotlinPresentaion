@@ -1,9 +1,11 @@
 pipeline {
     agent any
 
-    stage('Build') {
-        steps {
-            sh './gradlew --version'
+    stages {
+        stage('Build') {
+            steps {
+                sh './gradlew --version'
+            }
         }
     }
 }
