@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh './gradlew wasmJsBrowserWebpack'
+                sh './gradlew wasmJsBrowserWebpack --no-daemon'
             }
         }
     }
