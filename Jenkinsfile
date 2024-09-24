@@ -13,5 +13,10 @@ pipeline {
                 sh './gradlew --version'
             }
         }
+        stage('HUI') {
+             steps {
+                echo 'PISKA'
+             }
+        }
     }
 }
