@@ -1,7 +1,7 @@
 pipeline {
     agent any
 
-    stage("Build") {
+    stage('Build') {
         steps {
             sh './gradlew --version'
         }
