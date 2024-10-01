@@ -1,4 +1,4 @@
-rootProject.name = "presentations"
+rootProject.name = "ktp"
 
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
